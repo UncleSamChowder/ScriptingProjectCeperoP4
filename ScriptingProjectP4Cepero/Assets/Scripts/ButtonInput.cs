@@ -9,6 +9,7 @@ public class ButtonInput : MonoBehaviour
     public Sprite standard;
     public Sprite downgfx;
     public Sprite upgfx;
+    public Sprite heldgfx;
     public Text boolDisplay1;
     public Text boolDisplay2;
     public Text boolDisplay3;
@@ -33,7 +34,7 @@ public class ButtonInput : MonoBehaviour
         {
             graphic.sprite = heldgfx;
         }
-        else if (up)
+        else if(UP)
         {
             graphic.sprite = upgfx;
         }
